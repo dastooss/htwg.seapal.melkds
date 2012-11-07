@@ -1,11 +1,11 @@
 <?php
-	$con = mysql_connect("localhost", "root", "");
+	$con = mysql_connect("rdbms.strato.de", "U1178561", "melkds");
 	if(!$con) {
-		die('Cold not connect: ' .mysql_error());
+		die('Could not connect: ' .mysql_error());
 	}
 
-	mysql_select_db("mysql", $con);
-	$sql="INSERT INTO mysql.boatinfo2(bootsname, registernr, segelzeichen,
+	mysql_select_db("DB1178561", $con);
+	$sql="INSERT INTO DB1178561.boatinfo(bootsname, registernr, segelzeichen,
 		  heimathafen, yachtclub, eigner, versicherung, rufzeichen,
 		  typ, konstrukteur, laenge, breite, tiefgang, masthoehe,
 		  verdraengung, rigart, baujahr, motor, tankgroesse,
