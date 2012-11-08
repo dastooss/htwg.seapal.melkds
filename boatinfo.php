@@ -1,4 +1,5 @@
 <?php
+    if( empty ($_POST['fromForm']) == FALSE ) {
 	$con = mysql_connect("rdbms.strato.de", "U1178561", "melkds");
 	if(!$con) {
 		die('Could not connect: ' .mysql_error());
@@ -27,4 +28,7 @@
 
 	echo "1 record added";
 	mysql_close($con);
+    } else {
+        echo 'Access denied!';
+    }
 ?>
