@@ -1,4 +1,3 @@
-
 /*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
@@ -200,10 +199,12 @@ img.aligncenter {
 
 #menu .current_page_item a {
 	background: url(../images/page-content-bg.png) repeat;
+        color: #95C500;
 }
 
 #menu a:hover {
 	background: url(../images/page-content-bg.png) repeat;
+        color: #95C500;
 }
 
 
