@@ -10,7 +10,7 @@
 <body>
 	<!--Menü-->
 	<?php
-                $screen = "class='current_page_item'";
+		$screenshots = "class='current_page_item'";
 		include("menu.php");
 	?>
 

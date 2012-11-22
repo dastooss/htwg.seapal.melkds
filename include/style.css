@@ -1,3 +1,4 @@
+
 /*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
@@ -180,7 +181,7 @@ img.aligncenter {
 
 #menu li {
 	float: left;
-	background: url(../images/page-content-bg.png) repeat;
+ 	background: url(../images/page-content-bg.png) repeat;
 }
 
 #menu a {
@@ -199,12 +200,12 @@ img.aligncenter {
 
 #menu .current_page_item a {
 	background: url(../images/page-content-bg.png) repeat;
-        color: #95C500;
+ 	color: #95C500;
 }
 
 #menu a:hover {
 	background: url(../images/page-content-bg.png) repeat;
-        color: #95C500;
+	color: #95C500;
 }
 
 

@@ -1,7 +1,6 @@
 <meta name="keywords" content="sailing, app, navigation, sea map, boat, skipper"/>
 <meta name="description" content="SeaPal is a mobile app for sailors to do navigation, tracking and more."/>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <title><?php 
 	echo $title;
 ?></title>

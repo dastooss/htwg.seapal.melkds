@@ -10,7 +10,7 @@
 <body>
 	<!--Menü-->
 	<?php
-                $main = "class='current_page_item'";
+		$main = "class='current_page_item'";
 		include("menu.php");
 	?>
 

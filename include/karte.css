@@ -1,0 +1,21 @@
+body{
+	background-color:#0a204a;
+	color:#ffffff;
+}
+
+hr{
+	margin-top:-5px;
+}
+div#menu{
+	background-color:#0a204a;
+}
+td,tr{
+	vertical-align:middle;
+}
+a{
+	color:#ffffff;
+	text-decoration:none;
+}
+a:hover{
+	color:#95C500;
+}
