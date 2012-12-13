@@ -8,6 +8,11 @@ hr{
 }
 div#menu{
 	background-color:#0a204a;
+	/*background-image:url(./menu.png);*/
+}
+
+table#menu{
+	background-image:url(menu.png);
 }
 td,tr{
 	vertical-align:middle;
@@ -18,4 +23,8 @@ a{
 }
 a:hover{
 	color:#95C500;
+}
+#finish{
+	background-color: FF0000;
+	display:none;
 }

@@ -59,6 +59,6 @@
 </div>
 <div id="footer">
 	<p>
-		© 2012 IBN Verlag
+		&copy; 2012 IBN Verlag
 	</p>
 </div>

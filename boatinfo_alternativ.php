@@ -94,7 +94,12 @@
 				<td>L&auml;nge</td>
 				<td>Inhaber</td>
    			</thead>
-			<tbody id="list">
+			<tbody >
+				<div>
+					<select id="list" size="5" onclick="updateForm(this.value)">
+
+					</select>
+				</div>
 				<!-- Hier wird die Liste mittels JavaScript eingefügt -->
 			</tbody>
 		</table>
