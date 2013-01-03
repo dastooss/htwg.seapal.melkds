@@ -1,0 +1,44 @@
+/* tripinfo.php */
+.tripinfo {
+	font-family: Verdana;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+ 	background: url(../images/page-content-bg.png) repeat;
+}
+
+.tripinfo_table {
+	font-family: Verdana;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/page-content-bg.png) repeat;
+}
+
+.tripinfo_list {
+	width: 90%;
+	border: 1px solid #FFFFFF;
+}
+
+.tripinfo_table_row {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.tripinfo_table_link_click {
+	background-color: #95C500;
+	cursor:pointer;
+}
+
+.tripinfo_table_link {
+	background-color: #95C500;
+	cursor:pointer;
+}
+
+.tripinfo_table_nolink {
+    background-color: #31569D;
+}
