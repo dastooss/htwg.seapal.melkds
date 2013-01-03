@@ -119,6 +119,12 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
+#picture {
+	margin-top: 10px;
+	margin-left: -40px;
+	margin-right: 10px;
+}
+
 
 /* Search */
 
@@ -164,15 +170,15 @@ img.aligncenter {
 #menu {
 	width: 820px;
 	height: 60px;
-	margin: 0 auto;
 	padding: 0px 0px;
 	margin-top: 100px;
-	margin-left: -0px;
+	margin-left: auto;
 	margin-right: auto;
 }
 
 #menu ul {
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
@@ -181,7 +187,7 @@ img.aligncenter {
 
 #menu li {
 	float: left;
-	background: url(../images/page-content-bg.png) repeat;
+ 	background: url(../images/page-content-bg.png) repeat;
 }
 
 #menu a {
@@ -200,10 +206,12 @@ img.aligncenter {
 
 #menu .current_page_item a {
 	background: url(../images/page-content-bg.png) repeat;
+ 	color: #95C500;
 }
 
 #menu a:hover {
 	background: url(../images/page-content-bg.png) repeat;
+	color: #95C500;
 }
 
 
@@ -215,7 +223,7 @@ img.aligncenter {
  	margin: 0px auto;
 	padding: 50px 40px;
 	background: url(../images/page-content-bg.png) repeat;
-	border-radius: 20px
+	/*border-radius: 20px*/
 }
 
 /* Content */
@@ -225,12 +233,14 @@ img.aligncenter {
 	width: 520px;
 	padding: 0px 100px;
 	font-family: Verdana;
-
 }
 
-
 .entry {
-	width: 420px;
+	width: 620px;
+}
+
+.entry figure {
+	margin-left: auto;
 }
 
 .post {
@@ -408,7 +418,7 @@ img.aligncenter {
 	width: 900px;
 	height: 140px;
 	padding-left: 150px;
-	margin: 0px;
+ margin: 0px;
 	background: #31569D;
 }
 
@@ -474,4 +484,64 @@ img.aligncenter {
 	background: #31569D;
 }
 
+/* boatinfo.php */
+.boatinfo {
+	font-family: Verdana;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 590px;
+ 	background: url(../images/page-content-bg.png) repeat;
+ 	border-radius: 20px;
+}
 
+
+.boatinfo #boatinfo_table {
+	margin-bottom: 50px;
+}
+
+.boatinfo #boatinfo_list {
+	margin-bottom: 10px;
+}
+
+#boatinfo_buttons {
+	padding-bottom: 10px;
+}
+
+#boatinfo_list {
+	width: 90%;
+	border: 1px solid #FFFFFF;
+}
+
+.boatinfo_table_row {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.boatinfo_table_link_click {
+	background-color: #95C500;
+	cursor:pointer;
+}
+
+.boatinfo_table_link {
+	background-color: #95C500;
+	cursor:pointer;
+}
+
+.boatinfo_table_nolink {
+    background-color: #31569D;
+}
+
+/* entryinfo.php */
+.entryinfo {
+	font-family: Verdana;
+	padding-top: 50px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+ 	background: url(../images/page-content-bg.png) repeat;
+ 	border-radius: 20px;
+}

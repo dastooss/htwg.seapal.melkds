@@ -10,6 +10,7 @@
 <body>
 	<!--Menü-->
 	<?php
+		$contact = "class='current_page_item'";
 		include("menu.php");
 	?>
 
